@@ -267,6 +267,9 @@ let countDown = new Date('March 1, 2023 20:00:00').getTime(),
         document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);
       
     }, second)
+    if(window.location.href === 'https://www.wiztex.de/defaultsite'){
+    window.location.assign('/')
+    }
 </script>
 
 </html>
