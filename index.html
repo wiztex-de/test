@@ -6,163 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>wiztex</title>
-    <style>
-        .dmRespColsWrapper {
-            display: flex;
-            max-width: 960px;
-            position: relative;
-            margin: 0 auto;
-            width: 100%;
-        }
-
-        *.dmBody div.u_1175729417 {
-            background-repeat: no-repeat !important;
-            background-image: url(https://le-cdn.website-editor.net/s/c495c73…/dms3rep/multi/opt/pattern_ZwekF9xiQ7m3eHVssIu0-392x265-2880w.png) !important;
-            background-size: cover !important;
-        }
-
-        *.dmBody div.u_1175729417 {
-            float: none !important;
-            top: 0 !important;
-            left: 0 !important;
-            width: auto !important;
-            position: relative !important;
-            height: auto !important;
-            padding-top: 0 !important;
-            padding-left: 0 !important;
-            padding-bottom: 0 !important;
-            margin-right: 0 !important;
-            margin-left: 0 !important;
-            max-width: 100% !important;
-            margin-top: 0 !important;
-            margin-bottom: 0 !important;
-            padding-right: 0 !important;
-            min-width: 0 !important;
-            text-align: center !important;
-            background-position: 50% 50% !important;
-        }
-
-        .dmRespRow .dmRespColsWrapper {
-            display: flex;
-        }
-
-        .dmRespDesignRow,
-        .dmRespRow,
-        .dmRespRow .dmRespColsWrapper {
-            max-width: 960px;
-            position: relative;
-            margin: 0 auto;
-            width: 100%;
-            padding: 14px 0;
-            margin-top: 50px;
-        }
-
-        .imageWidget {
-            max-width: 633px;
-            top: 0 !important;
-            left: 0 !important;
-            width: calc(100% - -68px) !important;
-            position: relative !important;
-            padding-top: 0 !important;
-            padding-left: 0 !important;
-            padding-bottom: 0 !important;
-            margin-right: 0 !important;
-            max-width: 633px !important;
-            margin-top: 0 !important;
-            margin-bottom: 0 !important;
-            padding-right: 0 !important;
-            min-width: 25px !important;
-            text-align: center !important;
-            margin-left: -68px !important;
-            height: auto !important;
-        }
-
-        div.u_1175729417:before {
-            opacity: 0.9 !important;
-            background-image: linear-gradient(90deg, rgba(222, 97, 97, 1) 0, rgba(38, 87, 235, 1) 100%) !important;
-        }
-
-        div.u_1175729417:before {
-            background-image: linear-gradient(90deg, rgba(222, 97, 97, 1) 0, rgba(38, 87, 235, 1) 100%) !important;
-        }
-
-        .comming_soon_container {
-            opacity: 0.9 !important;
-            background-image: linear-gradient(90deg, rgba(222, 97, 97, 1) 0, rgba(38, 87, 235, 1) 100%) !important;
-        }
-
-        .dmRespCol {
-            margin: 0 auto;
-
-        }
-
-        .dmCountdown .container {
-            display: flex;
-            width: 100%;
-            height: auto;
-            color: white;
-        }
-
-        .dmCountdown .countdown {
-            padding-top: 2px;
-            padding-inline-end: 2px;
-            padding-bottom: 2px;
-            padding-inline-start: 2px;
-        }
-     .dmCountdown {
-            float: none !important;
-            top: 0 !important;
-            left: 0 !important;
-            width: calc(100% - 188px) !important;
-            position: relative !important;
-            height: auto !important;
-            padding-top: 0 !important;
-            padding-left: 0 !important;
-            padding-bottom: 0 !important;
-            margin-right: 196.5px !important;
-            margin-left: 188px !important;
-            max-width: 567px !important;
-            margin-top: 0 !important;
-            margin-bottom: 0 !important;
-            padding-right: 0 !important;
-            min-width: 25px !important;
-            text-align: center !important;
-        }
-        .dmCountdown .countdown{
-            padding-top: 2px;
-    padding-inline-end: 2px;
-    padding-bottom: 2px;
-    padding-inline-start: 2px;
-        }
-        .dmCountdown .tile{
-            position: relative;
-    line-height: normal;
-    flex: 1;
-}
-.number{
-    font-size: 45px !important;
-    color: rgba(147,38,235,1);
-    background-color: rgba(255,255,255,0.81) ;
-    background-image: initial;
-    -webkit-border-radius:50%;
-}
-.dmCountdown .label, .dmCountdown .number {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    padding: 20px 10px;
-}
-.divider.visible{
-    visibility: hidden !important;
-}
-.dmCountdown .label-tile{
-    position: relative;
-    -ms-flex: 1 0 0%;
-    flex: 1 0 0%;
-    height: 100%;
-}
-</style>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -172,7 +16,7 @@
             <div class="dmRespCol small-12 medium-12 large-12" id="1467360463">
                 <div class="u_1771311850 imageWidget align-center" data-element-type="image" data-widget-type="image"
                     id="1771311850" editablewidget="true">
-                    <img src="/Logo.png"
+                    <img src="./Logo.png"
                         alt="" id="1268266319" width="943" height="237" data-hover-effect="none">
                 </div>
             </div>
@@ -206,19 +50,19 @@
                             <div class="countdown-clock">
                                 <div class="container">
                                     <div class="tile">
-                                        <div class="number days" id='days'>65</div>
+                                        <div id="days" class="number days">00</div>
                                     </div>
                                     <div class="tile divider visible">:</div>
                                     <div class="tile">
-                                        <div class="number hours" id='hours'>10</div>
+                                        <div id="hours" class="number hours">00</div>
                                     </div>
                                     <div class="tile divider visible">:</div>
                                     <div class="tile">
-                                        <div class="number minutes" id='minutes'>00</div>
+                                        <div id="minutes"  class="number minutes">00</div>
                                     </div>
-                                    <div class="tile divider visible" id=''>:</div>
+                                    <div class="tile divider visible">:</div>
                                     <div class="tile">
-                                        <div class="number seconds" id='seconds'>02</div>
+                                        <div id="seconds" class="number seconds">00</div>
                                     </div>
                                 </div>
                                 <div class="container">
@@ -239,37 +83,67 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="countdown-message message-spacing"> info@wiztex.de </div>
+                            <div class="countdown-message email">info@wiztex.de</div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
     </section>
+    <section>
+        <div class="productContainer">
+            <div class="product_heading">
+                <h1 class="header">
+                    Products
+                </h1>
+            </div>
+            <div class="product_list">
+                <div class="product">
+                    <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:150px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=DE&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=wiztex-21&language=en_GB&marketplace=amazon&region=DE&placement=B0BNQZ1QJX&asins=B0BNQZ1QJX&linkId=3498f8df44cd51dcd2896d78abb88755&show_border=true&link_opens_in_new_window=true"></iframe>
+                </div>
+                <div class="product">
+                    <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:150px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=DE&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=wiztex-21&language=en_GB&marketplace=amazon&region=DE&placement=B0BQCXQ872&asins=B0BQCXQ872&linkId=eb5843bffa1f3bd4b531b7c02efaeb12&show_border=true&link_opens_in_new_window=true"></iframe>
+                </div>
+        
+                <div class="product">
+                    
+                    <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=DE&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=wiztex-21&language=en_GB&marketplace=amazon&region=DE&placement=B0BH8CNFGS&asins=B0BH8CNFGS&linkId=ceb60eb6e902bd81f4ad122e600fc9b9&show_border=true&link_opens_in_new_window=true"></iframe>
+                </div>
+                <div class="product">
+                    
+                </div>
+                <div class="product">
+                    
+                </div>
+                <div class="product">
+                    
+                </div>
+                <div class="product">
+                    
+                </div>
+        
+        </div>
 
+</section>
 </body>
     <script>
     const second = 1000,
-      minute = second * 60,
-      hour = minute * 60,
-      day = hour * 24;
+        minute = second * 60,
+        hour = minute * 60,
+        day = hour * 24;
 
-let countDown = new Date('March 1, 2023 20:00:00').getTime(),
-    x = setInterval(function() {
+    let countDown = new Date('March 31, 2023 20:00:00').getTime(),
+        x = setInterval(function () {
 
-      let now = new Date().getTime()
-          distance = countDown - now;
+            let now = new Date().getTime()
+            distance = countDown - now;
 
-      document.getElementById('days').innerText = Math.floor(distance / (day)),
-        document.getElementById('hours').innerText = Math.floor((distance % (day)) / (hour)),
-        document.getElementById('minutes').innerText = Math.floor((distance % (hour)) / (minute)),
-        document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);
-      
-    }, second)
-    if(window.location.href === 'https://www.wiztex.de/defaultsite'){
-    window.location.assign('/')
-    }
+            document.getElementById('days').innerText = Math.floor(distance / (day)),
+                document.getElementById('hours').innerText = Math.floor((distance % (day)) / (hour)),
+                document.getElementById('minutes').innerText = Math.floor((distance % (hour)) / (minute)),
+                document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);
+
+        }, second)
 </script>
 
 </html>
