@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore our partner stores: eBay, Amazon, and Otto.">
     <title>wiztex</title>
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="animation.css">
 </head>
 
 <body>
@@ -22,7 +24,31 @@
             </div>
         </div>
     </header>
-
+<section class="stores_container">
+<div class="store_link_main">
+    <div class="store_heading">
+        <h3>Shop  on our stores</h3>
+    </div>
+    <section class="store_links">
+        <article class="store_link">
+            <a href="https://www.ebay.com/sch/i.html?_from=R40&_trksid=p2334524.m570.l1313&_nkw=wiztex&_sacat=0&LH_TitleDesc=0&_odkw=wiztex.de" target="_blank">
+                <img src="./Assests/ebayLogo.png" alt="Shop on eBay" width="100%">
+            </a>
+        </article>
+        <article class="store_link">
+            <a href="https://www.amazon.de/-/en/stores/WiztexToys-Fashion/page/89809BB9-A9FD-4C0F-B52E-5A39D992C4DE?ref_=ast_bln" target="_blank">
+                <img src="./Assests/Amazon_logo.png" alt="Shop on Amazon" width="100%">
+            </a>
+        </article>
+        <article class="store_link">
+            <a href="https://www.otto.de/suche/wiztex" target="_blank">
+                <img src="./Assests/otto.png" alt="Shop on Otto" width="100%">
+            </a>
+        </article>
+    </section>
+    
+</div>
+</section>
     <section class="comming_soon_container">
         <div class="u_1175729417 dmRespRow hasBackgroundOverlay" style="text-align: center;" id="1175729417">
             <div class="dmRespColsWrapper" id="1656468828">
@@ -125,6 +151,21 @@
         </div>
 
 </section>
+<section class="sticky">
+    <div class="bubbles">
+        <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      
+    </div>
+  </section>
 </body>
     <script>
     const second = 1000,
@@ -132,7 +173,7 @@
         hour = minute * 60,
         day = hour * 24;
 
-    let countDown = new Date('March 31, 2023 20:00:00').getTime(),
+    let countDown = new Date('March 30, 2024 20:00:00').getTime(),
         x = setInterval(function () {
 
             let now = new Date().getTime()
