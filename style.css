@@ -1,8 +1,12 @@
+body{
+  font-family: 'Lato', sans-serif;
+}
+
 .dmRespColsWrapper {
   display: flex;
   max-width: 960px;
   position: relative;
-  /* margin: 0 auto; */
+  margin: 0 auto;
   width: 100%;
 }
 
@@ -46,15 +50,16 @@
   margin: 0 auto;
   width: 100%;
  text-align: center;
+ margin-top: 2rem;
 }
 .store_links {
   display: flex;
   justify-content: center;
   align-items: baseline;
-  gap: 40px;
+  gap: 20px;
 }
 .store_link {
-  width: 255px;
+  width: 120px;
 }
 .store_link:hover{
 cursor: pointer;
@@ -62,7 +67,7 @@ cursor: pointer;
 .dmRespDesignRow,
 .dmRespRow,
 .dmRespRow .dmRespColsWrapper {
-  max-width: 960px;
+  /* max-width: 960px; */
   position: relative;
   margin: 0 auto;
   width: 100%;
@@ -112,7 +117,9 @@ div.u_1175729417:before {
 .dmRespCol {
   margin: 0 auto;
 }
-
+.counterTitle{
+  padding-left: 1.2rem;
+}
 .dmCountdown .container {
   display: flex;
   width: 100%;
@@ -193,14 +200,15 @@ div.u_1175729417:before {
 }
 .product_heading {
   text-align: center;
+  padding-left: 28px;
 }
 
 @media (max-width: 768px) {
-  .store_links,
-  .store_link {
+  .store_links {
     width: 100%;
   }
   .store_links {
     padding-left: 2rem;
+    gap: 10px;
   }
 }
