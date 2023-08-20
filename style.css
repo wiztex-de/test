@@ -201,6 +201,7 @@ div.u_1175729417:before {
 .product_heading {
   text-align: center;
   padding-left: 28px;
+  padding-bottom: 3rem;
 }
 
 @media (max-width: 768px) {
